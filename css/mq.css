@@ -1,67 +1,153 @@
 @media (min-width: 320px) and (max-width: 600px ) {
+
+	/* MOBILE*********************** */
+
 	body{
-		/* background-color: red; */
+		background-color: salmon;
 	}
 
-	.banner-block {
-		background-image: url(../img/bg-header.png);
-		height: auto;
-		background-size: cover;
-		padding-bottom: 50px;
+	/* VIDEO SECTION */
+
+	.bg-video {
+		position: relative;
+		height: 80vh;
 	}
 
-	.history-block h3 {
-		padding-top: 20px;
+	.header-video {
+		height: 80vh;
 	}
 
-	.team-card {
-		width: 90vw;
+	.video-content {
+		background-color: pink;
+		bottom: 0;
+		left: 1rem;
+		right: 1rem;
+		bottom: 42px;
+		position: absolute;
 	}
 
-	.team-card img {
-		width: 90vw;
+	.header-overlay {
+	  width: 100vw;
+		height: 80vh;
 	}
 
-	.work-block h3 {
+	.video-content h1 {
+		/* color: tomato; */
+		font-size: 35px;
+		line-height: 36px;
+		text-align: center;
+		/* background-color: green; */
+	}
+
+	.video-content h2 {
+		/* background-color: lightblue; */
+		display: block;
+	  font-size: 16PX;
+	  line-height: 19px;
+	  display: block;
 		text-align: center;
 	}
 
-	.work-block a {
-		/* background-color: gold; */
-		display: inline-block;
-		margin-bottom: 20px;
+	.video-content a {
+		/* background-color: tomato; */
+		font-size: 16px;
+		text-align: center;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 48px;
+	}
+
+	.button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 	}
 
-	.img-work-1, .img-work-2 {
-		width: 100vw;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
-	}
-
+	/* END VIDEO SECTION */
 }
 
 
 @media (min-width: 768px) and (max-width: 1024px ) {
+	/* TABLET*************************** */
 	body{
+		background-color: orchid;
+	}
+
+	/* VIDEO SECTION ****************** */
+	.bg-video {
+		height: 43vh;
+		width: 100vw;
+	}
+
+	.header-video {
+		height: 43vh;
+		width: 100vw;
+
+	}
+
+	.header-video video {
+		width: 100vw;
+	}
+
+	.header-overlay {
+	  width: 100vw;
+		height: 43vh;
+		/* display: none; */
+	}
+
+	.video-content h1 {
 		/* background-color: tomato; */
+		font-size: 40px;
+		line-height: 48px;
 	}
 
-	.team-card {
-		margin-left: auto;
-		margin-right: auto;
+	.video-content h2 {
+		/* background-color: pink; */
+		display: block;
+	  font-size: 16PX;
+	  line-height: 19px;
+	  display: block;
+		padding-bottom: 1rem;
 	}
 
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
+	.video-content {
+		background-color: green;
+		position: absolute;
+		top: 120px;
 	}
 
+	.video-content a {
+		/* background-color: tomato; */
+		font-size: 16px;
+		/* text-align: center; */
+		margin-top: 0;
+		width: 200px;
+		height: 48px;
+	}
+
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	CONTENT
+	/* END VIDEO SECTION */
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px ) {
+	body {
+		background-color: orange;
+	}
+
+
+	.video-content {
+		background-color: green;
+		margin-top: 5rem;
+	}
 
 }
