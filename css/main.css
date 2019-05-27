@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: palegreen;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* BG-COLORS********************* */
+.bg-yellow {
+    background-color: #FEE45B;
+}
+
+.bg-yellowGreen {
+    background-color: yellowgreen;
+}
+
+.bg-whiteSmoke {
+    background-color: whitesmoke;
+}
+
+.bg-salmon {
+    background-color: salmon;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-paleGreen {
+    background-color: palegreen;
+}
+
+.bg-olive {
+    background-color: olive;
+}
+
+.bg-black {
+  background-color: #444444;
+}
+
+.bg-gray {
+  background-color: #F5F5F3;
+}
+
+.bg-green {
+  background-color: #d2f3e0;
+}
+
+/* END BG COLORS */
+
+
+
+/* NAVBAR SECTION */
+
+.navbar {
+  background-color: #444444;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.activado {
+  color: yellowgreen;
+}
+
+/* END NAVBAR SECTION */
+
+/* VIDEO SECTION*********************** */
+.bg-video {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.header-video video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+
+
+
+/* END VIDEO SECTION */
