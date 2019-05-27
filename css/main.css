@@ -236,3 +236,81 @@ body {
 
 
 /* END ABOUT SECTION */
+
+/* KPI SECTION************************* */
+.kpi-block {
+  height: auto;
+  margin-top: 60px;
+  padding: 90px 0;
+}
+
+.central-tag {
+  background-color: #FEE45B;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 50px;
+  margin-top: 65px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.central-tag p {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 1rem;
+}
+
+.tittle-text {
+  /* background-color: pink; */
+  font-size: 72px;
+  font-weight: 900;
+  color: #444444;
+  text-align: center;
+  margin-top: -2.2rem;
+}
+
+.white-line-central {
+    width: 400px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.kpi-cards {
+  padding: 0 0;
+  margin-top: 8rem;
+}
+
+.kpi-card {
+  /* background-color: pink; */
+  padding: 0 1rem;
+}
+
+.kpi-card h4 {
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.kpi-card h3 {
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: -1.5rem;
+}
+
+.kpi-card p {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+
+/* END KPI SECTION */
