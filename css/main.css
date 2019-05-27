@@ -16,6 +16,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.height-500 {
+  height: 500px;
+}
+
 /* BG-COLORS********************* */
 .bg-yellow {
     background-color: #FEE45B;
@@ -159,3 +163,76 @@ body {
 /* END BANNER CONTENT SECTION */
 
 /* END VIDEO SECTION */
+
+/* ABOUT SECTION************** */
+
+.about-block {
+  background-color: lightblue;
+  height: auto;
+  margin-top: 60px;
+}
+
+.about-img {
+  /* background-color: tomato; */
+  padding: 0 0;
+}
+
+.about-img img {
+  width: 100%;
+  /* display: none; */
+}
+
+.tag {
+  background-color: #FEE45B;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 150px;
+  margin-left: -100px;
+  margin-top: 65px;
+}
+
+.white-line {
+    height: 4px;
+    background-color: #fff;
+    margin-top: 0.7rem;
+}
+
+.about-text {
+  background-color: pink;
+  padding: 0;
+}
+
+.about-text p {
+  background-color: lightyellow;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  margin-left: 45px;
+}
+
+.tag h3 {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.about-text h2 {
+  /* background-color: pink; */
+  font-size: 72px;
+  font-weight: 900;
+  color: #444444;
+  margin-top: -50px;
+  margin-left: 45px;
+}
+
+.about-text a {
+  /* background-color: tomato; */
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+
+/* END ABOUT SECTION */
