@@ -389,6 +389,9 @@
 		font-size: 16px;
 	}
 
+	.tag-card {
+	    height: 24px;
+	}
 
 
 
@@ -410,6 +413,10 @@
 	.video-content {
 		background-color: green;
 		margin-top: 5rem;
+	}
+
+	.about-text {
+		margin-top: 0.5rem;
 	}
 
 }

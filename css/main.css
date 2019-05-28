@@ -319,5 +319,8 @@ body {
   padding: 0 1rem;
 }
 
+.tag-card {
+    height: 45px;
+}
 
 /* END KPI SECTION */
