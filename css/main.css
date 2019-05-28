@@ -16,6 +16,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+.container {
+  /* background-color: lightsalmon; */
+}
+
+
 .height-500 {
   height: 500px;
 }
@@ -283,9 +288,11 @@ body {
 }
 
 .kpi-cards {
+  background-color: paleGreen;
   padding: 0 0;
   margin-top: 8rem;
 }
+
 
 .kpi-card {
   /* background-color: pink; */

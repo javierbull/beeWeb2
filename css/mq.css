@@ -311,6 +311,7 @@
 	}
 
 	.about-text h2 {
+		/* color: tomato; */
 		font-size: 32px;
 		font-weight: 900;
 		margin-top: -20px;
@@ -334,8 +335,69 @@
 		font-size: 16px;
 	}
 
-
 	/* END ABOUT SECTION */
+
+	/* KPI SECTION******************************** */
+
+	.kpi-block {
+	  margin-top: 60px;
+	  padding: 40px 0;
+	}
+
+
+	.central-tag {
+		height: 55px;
+	}
+
+	.central-tag p {
+		color: #fff;
+		font-size: 16px;
+		font-weight: bold;
+		margin-top: -25px;
+	}
+
+	.white-line-central {
+	    background-color: #fff;
+			margin-top: -13px;
+			width: 220px;
+	}
+
+	.tittle-text {
+		/* background-color: salmon; */
+		/* color: blue; */
+		font-size: 35px;
+		margin-top: -30px;
+	}
+
+	.kpi-cards {
+	  background-color: lightblue;
+	  padding: 0 0;
+	  margin: 2.5rem auto 0 auto;
+	}
+
+	.kpi-card h4 {
+		font-size: 36px;
+	}
+
+	.kpi-card h3 {
+		/* background-color: tomato; */
+		font-size: 24px;
+		margin-top: -15px;
+	}
+
+	.kpi-card p {
+		font-size: 16px;
+	}
+
+
+
+
+
+
+
+
+
+	/* END KPI SECTION  */
 
 }
 
